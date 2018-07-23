@@ -19,6 +19,7 @@
 #include "Magellan.h"
 Magellan magel;					 
 char auth[]="Your-KEY"; 		//Token Key you can get from magellan platform
+#define Serial1 Serial2
 
 String payload;
 #define RESET_PIN 33
